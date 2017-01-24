@@ -16,7 +16,6 @@ class User < ApplicationRecord
             provider: access_token.provider,
             uid: access_token.uid
          )
-    UserNotifyMailer.notification(user).deliver
      end
     user
 end
