@@ -37,7 +37,7 @@ config.action_mailer.smtp_settings = {
   authentication: "plain",
   enable_starttls_auto: true,
   user_name: 'rrdharmesh@gmail.com',
-  password: 'ampositive'
+  password: '*******'
 }
 # change to true to allow email to be sent during development
 config.action_mailer.perform_deliveries = true
